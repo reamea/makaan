@@ -13,3 +13,6 @@ This is public repo for makaan with docker file to build image from debian apach
     docker tag makaan reamea/makaan:0.0.3
     docker login
     docker push reamea/makaan:0.0.3
+## Stop Docker run
+    docker stop <CONTAINER ID>
+    docker stop 6e72db6640a9
